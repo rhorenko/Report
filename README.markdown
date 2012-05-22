@@ -1,8 +1,7 @@
-MPTransition
+Report
 =====================
-__Update__: MPTransition now comprises MPFoldTransition and MPFlipTransition
 
-MPFoldTransition is a set of classes to add folding-style transitions to iOS 5 projects.  
+Report is a simple  Warehouse Management System for Android devices.  
 ![iPhone Fold](http://markpospesel.files.wordpress.com/2012/05/iphone-fold1.png)  
 MPFlipTransition is a set of classes to add page-flipping transitions to iOS 5 projects.  
 ![iPhone Flip](http://markpospesel.files.wordpress.com/2012/05/iphone-flip-3.png)  
@@ -10,12 +9,14 @@ I built it using ARC (and for the demo portion storyboards) strictly for conveni
 
 Features
 ---------
-* Convenience methods to extend UIViewController to present/dismiss a view controller modally using fold/flip transitions
-* Convenience methods to extend UINavigationController to push/pop view controllers onto the navigation stack using fold/flip transitions
-* Convenience methods to transition between any 2 UIViewControllers or UIViews
-* 3 Custom UIStoryboardSegue subclasses to easily add folding/flipping transitions via Interface Builder in your storyboards
-* Fully customizable to adjust style, duration, timing curves, and completion action
-* Blocks-based: many methods include a completion block parameter following the pattern of block-based animations introduced in iOS 4.
+* Easy data entry.
+* Query by categories - objects, materials, works .
+* Small and fast SQLite database.
+* Exporting your reports to .txt files (maybe in future - cvs,pdf,xls). 
+* Stability.
+* Work fine for tablets.
+* Sorting by date - maybe in future.
+* If you have any troubles or need version for your device - just email me. I create it and pulish to Google Play.
 
 Fold Styles
 ---------
@@ -39,18 +40,12 @@ Currently there are 3 style bits that can be combined for 8 different styles.
 
 How To Use
 ---------
-See the "MPFoldTransition.h" (and "MPFlipTransition.h") header file(s) for methods and use the demo project as a reference.  The Segue classes (under directory of the same name) are optional, only if you want to include storyboard support.  Otherwise you just need the classes under the bottommost MPFoldTransition directory.
+Under development
 
-Licensing
----------
-Read Source Code License.rtf, but the gist is:
-* Anyone can use it for any type of project
-* All I ask for is attribution somewhere
 
-Best,  
-Mark Pospesel
+Best regards,  
+Roman Gorenko
 
-Website: http://markpospesel.com/  
-Contact: http://markpospesel.com/about  
-Twitter: http://twitter.com/mpospese  
-Hire Me: http://crazymilksoftware.com/  
+Website:  http://anddevru.blogspot.com/  
+Skype:    MastAvalons 
+
