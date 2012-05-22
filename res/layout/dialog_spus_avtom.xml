@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите работу" />
+
+    <Spinner
+        android:id="@+id/SpinnerWorkAvtom"
+        android:layout_width="200pt"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Работа" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите объект" />
+
+    <Spinner
+        android:id="@+id/SpinnerObjectAvtom"
+        android:layout_width="200pt"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Работа" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите количество работ" />
+
+    <EditText
+        android:id="@+id/count_work"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:text="1" />
+
+</LinearLayout>

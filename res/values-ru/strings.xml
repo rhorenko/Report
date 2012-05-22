@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Отчет</string>
+    <string name="btn_ok">Да</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_add">Добавить</string>
+    <string name="add_material">Добавить материал</string>
+    <string name="field_date">Дата  :</string>
+    <string name="field_object">Поступление на обьект   :</string>
+    <string name="field_material">Материал  :</string>
+    <string name="field_comment">Комментарий</string>
+    <string name="field_volume">Количество:</string>
+    <string name="title_add">Поступление материалов</string>
+    <string name="title_adding_object">Добавление нового обьекта</string>
+    <string name="title_adding_material">Добавление нового материала</string>
+    <string name="title_adding_work">Добавление новой работы</string>
+    <string name="title_add_editing">Редактирование поступлений</string>
+    <string name="title_delete_editing">Редактирование списаний</string>
+    <string name="title_spis_avtomatom">Мастер перемещений</string>
+    <string name="title_delete">Удаление</string>
+    <string name="title_tab0">Поступление</string>
+    <string name="title_tab1">Списание</string>
+    <string name="title_tab2">Остаток</string>
+    <string name="title_tab3">Выборка</string>
+    <string name="act_number">Акт №</string>
+    <string name="menu_add">Добавить</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="toast_exported">Успешно экспортирован!</string>
+    <string name="toast_saved">Успешно сохранено!</string>
+    <string name="volume">Количество</string>
+	<string name="work_name">Название работы</string>
+	<string name="work_create">Создание работы   :</string>
+</resources>

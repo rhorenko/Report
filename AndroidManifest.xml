@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="preferExternal"
+    package="mast.avalons"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <application
+        android:icon="@drawable/calc"
+        android:label="@string/app_name" >
+        <provider
+            android:name=".ContactProvider"
+            android:authorities="mast.avalons.contactprovider" >
+        </provider>
+        <provider
+            android:name=".ObjectProvider"
+            android:authorities="mast.avalons.objectprovider" >
+        </provider>
+        <provider
+            android:name=".MaterialProvider"
+            android:authorities="mast.avalons.materialprovider" >
+        </provider>
+        <provider
+            android:name=".TempProvider"
+            android:authorities="mast.avalons.tempprovider" >
+        </provider>
+        <provider
+            android:name=".WorkProvider"
+            android:authorities="mast.avalons.workprovider" >
+        </provider>
+        <provider
+            android:name=".WandMProvider"
+            android:authorities="mast.avalons.wandmprovider" >
+        </provider>
+
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PostypActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SpisActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SpisMasterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ActActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".WorksActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

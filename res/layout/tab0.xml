@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tabPage0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Добавить" >
+            </Button>
+
+            <Button
+                android:id="@+id/button_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Редактировать" >
+            </Button>
+
+            <Button
+                android:id="@+id/button_export"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Экспортировать"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/button_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Показать"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/button_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Удалить" >
+            </Button>
+
+            <TextView
+                android:id="@+id/mText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Удалить"
+                android:visibility="gone" >
+            </TextView>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

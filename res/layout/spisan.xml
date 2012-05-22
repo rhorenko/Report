@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Списание с объекта:" />
+
+        <Spinner
+            android:id="@+id/SpinnerObjectSpisan"
+            android:layout_width="180pt"
+            android:layout_height="25pt"
+            android:drawSelectorOnTop="true"
+            android:text="Объект" >
+        </Spinner>
+
+        <Button
+            android:id="@+id/date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21-10-2011" >
+        </Button>
+
+        <TextView
+            android:id="@+id/act_number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Акт № 000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/addObject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить объект" >
+        </Button>
+
+        <Button
+            android:id="@+id/addMaterial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить материал" >
+        </Button>
+
+        <Button
+            android:id="@+id/addWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить работу" >
+        </Button>
+
+        <TextView
+            android:id="@+id/mLabelObj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mLabelMat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mLabelWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:text="Сохранить" >
+        </Button>
+
+        <Button
+            android:id="@+id/save_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить и списать"
+            android:visibility="gone" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_esc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отмена" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="150pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Работа"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="160pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Материал"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Количество"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Примечание"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Примечание"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/TableRowPostyp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Spinner
+                android:id="@+id/SpinnerWorkSpisan"
+                android:layout_width="120pt"
+                android:layout_height="25pt"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="true"
+                android:text="Объект" />
+
+            <Spinner
+                android:id="@+id/SpinnerMaterialSpisan"
+                android:layout_width="129pt"
+                android:layout_height="25pt"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="true"
+                android:text="Объект" >
+            </Spinner>
+
+            <EditText
+                android:id="@+id/volume_spisan"
+                android:layout_width="20pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:text=""
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/comment_spisan"
+                android:layout_width="20pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="30pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Добавить"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/listViewTemp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

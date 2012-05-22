@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Report</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_add">Add</string>
+    <string name="add_material">Add material</string>
+    <string name="field_date">Date  :</string>
+    <string name="field_object">Adding to the object   :</string>
+    <string name="field_material">Material  :</string>
+    <string name="field_comment">Comment</string>
+    <string name="field_volume">Volume:</string>
+    <string name="title_add">Adding materials</string>
+    <string name="title_adding_object">Adding new object</string>
+    <string name="title_adding_material">Adding new material</string>
+    <string name="title_adding_work">Adding new work</string>
+    <string name="title_add_editing">Editing added</string>
+    <string name="title_delete_editing">Editing deleted</string>
+    <string name="title_spis_avtomatom">Movement master</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_tab0">                          Added            </string>
+    <string name="title_tab1">                Removed                </string>
+    <string name="title_tab2">          Balance        </string>
+    <string name="title_tab3">           Selection                              </string>
+    <string name="act_number">Act №</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="toast_exported">Successful exported!</string>
+    <string name="toast_saved">Successful saved!</string>
+    <string name="volume">Volume</string>
+	<string name="work_name">Work name</string>
+	<string name="work_create">Create work   :</string>
+</resources>

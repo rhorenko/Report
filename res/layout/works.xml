@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/work_create"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/newWorkName"
+            android:layout_width="200pt"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/work_name" />
+
+        <Button
+            android:id="@+id/addMaterial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_material" >
+        </Button>
+
+        <TextView
+            android:id="@+id/mLabelObj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mLabelMat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_esc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="@string/btn_save" >
+        </Button>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="200pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Материал"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="20pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/volume"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="30pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Примечание"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/TableRowPostyp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Spinner
+                android:id="@+id/SpinnerMaterial"
+                android:layout_width="200pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="true"
+                android:text="Объект" >
+            </Spinner>
+
+            <EditText
+                android:id="@+id/volume"
+                android:layout_width="20pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="20pt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_add"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/listViewTemp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
