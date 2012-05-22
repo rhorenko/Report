@@ -9,10 +9,10 @@ I built it using ARC (and for the demo portion storyboards) strictly for conveni
 
 Features
 ---------
-* Easy data entry.
-* Query by categories - objects, materials, works .
+* Simle and easy data entry.
+* Query by categories - objects, materials, works (I can edit categories - just email me).
 * Small and fast SQLite database.
-* Exporting your reports to .txt files (maybe in future - cvs,pdf,xls). 
+* Exporting your reports to .txt files (maybe in future - cvs, pdf,xls). 
 * Stability.
 * Work fine for tablets.
 * Sorting by date - maybe in future.
